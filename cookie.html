@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅤ</title>
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1130084412831322193/1379765525076250654/cookie.ico?ex=68416e47&is=68401cc7&hm=87daa855a697adbc82063b9aa7b35ae58dda9a30ddcf4be6276ac1b9f9bc5045&" type="image/x-icon">
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            document.getElementById('cn').value = localStorage.getItem('cnValue');
+        })
+    </script>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <textarea style="outline: transparent;border-color: transparent;width: 100%;height: 500vh;" onkeyup="localStorage.setItem('cnValue', document.getElementById('cn').value)"  name="" id="cn"></textarea>
+</body>
+</html>
